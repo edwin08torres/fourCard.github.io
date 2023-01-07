@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    --Very-Dark__Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light__Gray: hsl(0, 0%, 98%);
+
+
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+.main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.main .article {
+    width: 100%;
+    margin-top: 20%;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.main .article .title {
+    min-width: 320px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main .article .title span {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.main .article .title h1 {
+    font-size: 1.4rem;
+}
+
+
+.main .article .title p {
+    font-size: .9rem;
+    font-weight: 200;
+    padding-top: 7%;
+    text-align: center;
+}
+
+.main .article .card-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 360px;
+    padding: 0 5%;
+}
+
+.main .article .card-container .card {
+    margin: 5% 0;
+    padding: 7%;
+    background-color: var(--Very-Light__Gray);
+    box-shadow: 0px 5px 30px rgb(205, 204, 204);
+    border-radius: 5px;
+}
+
+.main .article .card-container .card .title-card h2 {
+    font-weight: 400;
+}
+
+.main .article .card-container .card .title-card p {
+    font-weight: 200;
+    font-size: .9rem;
+    margin-top: 3px;
+}
+
+.main .article .card-container .card .img {
+    display: flex;
+    justify-content: end;
+    padding-top: 12%;
+}
+
+.main .article .card-container .card:nth-child(1) {
+    border-top: 4px solid var(--Cyan);
+}
+
+.main .article .card-container .card:nth-child(2) {
+    border-top: 4px solid var(--Red);
+}
+
+.main .article .card-container .card:nth-child(3) {
+    border-top: 4px solid var(--Orange);
+}
+
+.main .article .card-container .card:nth-child(4) {
+    border-top: 4px solid var(--Blue);
+}

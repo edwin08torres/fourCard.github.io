@@ -1,0 +1,21 @@
+.main .article .title{
+    max-width: 450px;
+}
+
+.main .article .title span {
+    font-size: 1.8rem;
+}
+
+.main .article .title h1{
+    font-size: 1.8rem;
+}
+
+.main .article .title p {
+    font-size: .9rem;
+}
+
+.main .article .card-container .card{
+    margin: 0;
+    max-height: 16rem;
+}
+
