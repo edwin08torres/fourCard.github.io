@@ -2,12 +2,12 @@
     margin: 3% 0;
 }
 
-.title span {
-    font-size: 1.8rem;
+.title .title--details{
+    min-width: 35%;
 }
 
-.title .title--details h1{
-    font-size: 1.8rem;
+.title .title--details h1,.title .title--details span{
+    font-size: 2rem;
 }
 
 .title .title--details p {
