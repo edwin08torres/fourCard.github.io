@@ -63,22 +63,20 @@ h6 {
 }
 
 .main {
-    min-height: 100vh;
+    min-height: 50vh;
+    width: 100%;
+}
+
+.title {
+    margin-top: 10%;
     width: 100%;
     display: flex;
-}
-
-.main .article {
-    width: 100%;
-    margin-top: 20%;
-    display: grid;
-    grid-template-rows: 1fr;
-    gap: 3rem;
     justify-content: center;
+    align-items: center;
 }
 
-.main .article .title {
-    min-width: 320px;
+.title .title--details {
+    min-width: 280px;
     max-width: 360px;
     display: flex;
     flex-direction: column;
@@ -86,67 +84,68 @@ h6 {
     text-align: center;
 }
 
-.main .article .title span {
+.title .title--details span {
     font-size: 1.3rem;
     font-weight: 200;
+    display: block;
 }
 
-.main .article .title h1 {
+.title .title--details h1 {
     font-size: 1.4rem;
 }
 
-
-.main .article .title p {
+.title .title--details p {
     font-size: .9rem;
     font-weight: 200;
     padding-top: 7%;
     text-align: center;
 }
 
-.main .article .card-container {
+.main .card-container {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
-    max-width: 360px;
-    padding: 0 5%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.main .article .card-container .card {
+.main .card-container .card {
     margin: 5% 0;
+    max-width: 80%;
     padding: 7%;
     background-color: var(--Very-Light__Gray);
     box-shadow: 0px 5px 30px rgb(205, 204, 204);
     border-radius: 5px;
 }
 
-.main .article .card-container .card .title-card h2 {
+.main .card-container .card .title-card h2 {
     font-weight: 400;
 }
 
-.main .article .card-container .card .title-card p {
+.main .card-container .card .title-card p {
     font-weight: 200;
     font-size: .9rem;
     margin-top: 3px;
 }
 
-.main .article .card-container .card .img {
+.main .card-container .card .img {
     display: flex;
     justify-content: end;
     padding-top: 12%;
 }
 
-.main .article .card-container .card:nth-child(1) {
+.main .card-container .card:nth-child(1) {
     border-top: 4px solid var(--Cyan);
 }
 
-.main .article .card-container .card:nth-child(2) {
+.main .card-container .card:nth-child(2) {
     border-top: 4px solid var(--Red);
 }
 
-.main .article .card-container .card:nth-child(3) {
+.main .card-container .card:nth-child(3) {
     border-top: 4px solid var(--Orange);
 }
 
-.main .article .card-container .card:nth-child(4) {
+.main .card-container .card:nth-child(4) {
     border-top: 4px solid var(--Blue);
 }

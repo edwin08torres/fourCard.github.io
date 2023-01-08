@@ -1,21 +1,29 @@
-.main .article .title{
-    max-width: 450px;
+.title{
+    margin: 3% 0;
 }
 
-.main .article .title span {
+.title span {
     font-size: 1.8rem;
 }
 
-.main .article .title h1{
+.title .title--details h1{
     font-size: 1.8rem;
 }
 
-.main .article .title p {
+.title .title--details p {
     font-size: .9rem;
 }
 
-.main .article .card-container .card{
+.main .card-container .card{
     margin: 0;
     max-height: 16rem;
+    min-width: 300px;
+    max-width: 320px;
 }
+
+.main .card-container{
+    min-width: 62.5rem;
+    max-width: 75rem;
+}
+
 
